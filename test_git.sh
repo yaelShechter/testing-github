@@ -7,4 +7,4 @@ git checkout -b "version"
 git add -A
 git commit -m "f"
 git push origin version 
-gh pr create --title "hello"
+gh pr create --title "hello" --body "added"
