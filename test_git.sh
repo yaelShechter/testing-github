@@ -1,7 +1,7 @@
 #!/bin/bash
 
-GIT_AUTHOR_NAME=yael
-GIT_AUTHOR_EMAIL=yael.sh84@gmail.com
+GIT_CONFIG_GLOBAL=./gitconfig
+GIT_CONFIG_SYSTEM=/dev/null
 
 git checkout -b "version"
 git add -A
