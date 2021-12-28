@@ -1,10 +1,10 @@
-#!/bin/bash
+#/bin/bash
 
-GIT_CONFIG_GLOBAL=./gitconfig
-GIT_CONFIG_SYSTEM=/dev/null
-
-git checkout -b "version"
+git checkout -b $1
+echo $1 >> hello
+gst
 git add -A
-git commit -m "f"
-git push origin version 
-gh pr create --title "hello" --body "added"
+git -c user.name="Y" -c user.email="Your email" commit -m "auto"
+git push https://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@github.com/yaelShechter/testing-github $1
+gh pr create --title "1" --body "hello"
+
