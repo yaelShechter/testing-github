@@ -2,7 +2,6 @@
 
 git checkout -b $1
 echo $1 >> hello
-gst
 git add -A
 git -c user.name="Y" -c user.email="Your email" commit -m "auto"
 git push https://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@github.com/yaelShechter/testing-github $1
