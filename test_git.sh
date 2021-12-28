@@ -5,6 +5,6 @@ echo $1 >> hello
 gst
 git add -A
 git -c user.name="Y" -c user.email="Your email" commit -m "auto"
-git push https://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@github.com/yaelShechter/testing-github $1
+git push https://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@github.com/yaelShechter/testing-github $1
 gh pr create --title "1" --body "hello"
 
